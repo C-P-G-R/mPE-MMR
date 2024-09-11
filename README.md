@@ -1,4 +1,4 @@
-# mPEMMR
+# mPE-MMR
 The mPE-MMR method is an integrated approach that combines three previously reported methods of treating MS/MS data for precursor mass refinement. It increases sensitivity in peptide identification and provides increased accuracy.
 
 mPE-MMR can be used to create a MGF file with refined parent ion masses and charges, which can lead to more accurate search results from MS/MS spectra. mPE-MMR (Multiplexed Post-Experiment Monoisotopic Mass Refinement) supports multiplexed MS/MS spectra, and consists of the following:
