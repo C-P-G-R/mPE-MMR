@@ -24,7 +24,7 @@ and execute the command below
 sudo docker load -i pqt_save.tar
 
 # make a parquet file
-raw2mzparquet <raw file name>
+raw2mzparquet {raw file name}
 
 # run RAPID
 rapid_new ./rapid_ms.txt 
