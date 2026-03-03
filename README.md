@@ -20,4 +20,4 @@ After that
 
 and execute the command below
 
-mPEMMR_2.2.cmd D:\mPEMMR_param.txt D:\Sample\Sample.raw
+mPEMMR_3.1.cmd D:\mPEMMR_param.txt D:\Sample\Sample.raw
