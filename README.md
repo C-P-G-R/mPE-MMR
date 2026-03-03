@@ -20,7 +20,7 @@ After that
 
 and execute the command below
 
-# docker image build
+# build docker image
 sudo docker load -i pqt_save.tar
 
 # make a parquet file
