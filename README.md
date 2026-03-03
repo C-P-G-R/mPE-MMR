@@ -16,8 +16,18 @@ msconvert can be installed from ProteoWizard (https://proteowizard.sourceforge.i
 After that 
 
 1) Modify the paths of RAPID and MSCONVERT in the mPEMMR_param.txt file.
-2) Modify PEMMR_HOME to the appropriate path in mPEMMR_2.0.cmd file and execute the command below.
+2) Modify PEMMR_HOME to the appropriate path in mPEMMR_3.1.cmd file and execute the command below.
 
 and execute the command below
 
-mPEMMR_3.1.cmd D:\mPEMMR_param.txt D:\Sample\Sample.raw
+# docker image build
+sudo docker load -i pqt_save.tar
+
+# make a parquet file
+raw2mzparquet <raw file name>
+
+# run RAPID
+rapid_new ./rapid_ms.txt 
+
+# run mPE-MMR
+mPEMMR_3.1.sh ./mPEMMR_param.txt ./some_raw.raw
